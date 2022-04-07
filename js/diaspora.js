@@ -199,7 +199,8 @@ var Diaspora = {
     }
 };
 
-$(function() {
+$(function () {
+    $("#gitalk-container").hide()
     if (Diaspora.P()) {
         $('body').addClass('touch')
     }
